@@ -12,7 +12,46 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
 /* Шапка */
+
+.header-flex {
+  display: flex;
+}
+.nav-flex {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+.nav-list {
+  display: flex;
+  margin-left: 93px;
+}
+.auth-list {
+  margin-left: auto;
+}
+
+.nav-list .nav-item:not(:last-child),
+.auth-list .nav-item:not(:last-child) {
+  margin-right: 50px;
+}
 .navigation {
   font-weight: 500;
   font-size: 14px;
@@ -21,7 +60,8 @@ body {
   color: var(--main-text-color);
   list-style-type: none;
 }
-.navigation-list a {
+.navigation-list .link {
+  display: block;
   color: var(--main-text-color);
   text-decoration: none;
 }
@@ -40,11 +80,11 @@ body {
 .logo {
   color: var(--extra-color);
 }
-.contacts a {
+
+.contacts .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   text-decoration: none;
 }
@@ -67,6 +107,9 @@ body {
 .footcontacts {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+.link {
+  padding: 15px 0;
 }
 .link:hover,
 .link:focus {
