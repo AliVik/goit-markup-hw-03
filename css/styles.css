@@ -1,0 +1,87 @@
+/* Стили страницы Студио */
+.hero {
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.hero-name {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  color: var(--main-white-color);
+  text-transform: uppercase;
+}
+.main-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 0.5;
+  color: var(--main-white-color);
+  background-color: var(--extra-color);
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+/* Main content */
+.main-headers {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+.secondary-headers {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.advantages {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--secondary-text-color);
+}
+.names {
+  line-height: 1.2;
+}
+.names h3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+.names p {
+  font-size: 16px;
+  color: var(--secondary-text-color);
+}
+
+/* Стили страницы Портфолио */
+.list .butt {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: var(--buttons-color);
+  cursor: pointer;
+  color: var(--main-text-color);
+  font-family: inherit;
+  letter-spacing: 0.03em;
+}
+.butt:hover,
+.butt:focus {
+  background-color: var(--extra-color);
+  color: var(--main-white-color);
+}
+.projects a {
+  text-decoration: none;
+}
+.projects h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+.projects p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--secondary-text-color);
+}

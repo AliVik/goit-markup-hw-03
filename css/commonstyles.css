@@ -1,0 +1,78 @@
+:root {
+  --main-white-color: #ffffff;
+  --secondary-color: #f5f4fa;
+  --extra-color: #2196f3;
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --buttons-color: #f5f4fa;
+}
+body {
+  background-color: var(--main-white-color);
+  color: var(--main-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+/* Шапка */
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+  list-style-type: none;
+}
+.navigation-list a {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+.navigation-logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+.logo {
+  color: var(--extra-color);
+}
+.contacts a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+/* Подвал */
+.backlogo {
+  color: var(--main-white-color);
+}
+.delete-class {
+  background-color: #2f303a;
+}
+.footaddress {
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+}
+.address {
+  color: var(--main-white-color);
+  text-decoration: none;
+}
+.footcontacts {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--extra-color);
+}
+
+.navigation-list .current {
+  color: var(--extra-color);
+}
