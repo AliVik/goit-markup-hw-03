@@ -1,9 +1,11 @@
 /* Стили страницы Студио */
 .hero {
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 .hero-name {
+  margin-top: 200px;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -11,15 +13,15 @@
   text-transform: uppercase;
 }
 .main-button {
+  margin-bottom: 200px;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px 32px;
   font-weight: bold;
   font-size: 16px;
-  line-height: 0.5;
+  line-height: 1.88;
   color: var(--main-white-color);
   background-color: var(--extra-color);
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
   letter-spacing: 0.06em;
   cursor: pointer;
 }

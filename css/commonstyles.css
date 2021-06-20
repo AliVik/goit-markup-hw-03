@@ -7,6 +7,7 @@
   --buttons-color: #f5f4fa;
 }
 body {
+  margin: 0;
   background-color: var(--main-white-color);
   color: var(--main-text-color);
   font-family: Roboto, sans-serif;
@@ -33,12 +34,12 @@ ul {
 
 .header-flex {
   display: flex;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 .nav-flex {
   display: flex;
   align-items: center;
-  margin-top: 24px;
-  margin-bottom: 25px;
 }
 .nav-list {
   display: flex;
