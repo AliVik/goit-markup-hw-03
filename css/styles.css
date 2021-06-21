@@ -47,7 +47,9 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+.section:nth-child(2n + 4) {
+  background-color: var(--buttons-color);
+}
 .flex-list > .flex-item:not(:last-child),
 .flex-list > .flex-img:not(:last-child),
 .flex-list > .names:not(:last-child) {
@@ -64,6 +66,10 @@
   color: var(--secondary-text-color);
 }
 /* Наша команда */
+.names-img {
+  display: block;
+  width: 100%;
+}
 .names {
   line-height: 1.2;
 }
@@ -111,6 +117,12 @@
 }
 .projects {
   width: 370px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+.desc {
+  padding: 20px 24px;
 }
 .projects:not(:last-child) {
   margin-bottom: 30px;
@@ -125,7 +137,6 @@
 .projects-img {
   display: block;
   width: 100%;
-  margin-bottom: 20px;
 }
 .butt:hover,
 .butt:focus {
