@@ -93,8 +93,13 @@ ul {
 .backlogo {
   color: var(--main-white-color);
 }
+.navigation-logo .foot-logo {
+  margin-bottom: 20px;
+}
 .delete-class {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footaddress {
   font-size: 14px;
@@ -104,13 +109,16 @@ ul {
 .address {
   color: var(--main-white-color);
   text-decoration: none;
+  margin-bottom: 9px;
 }
 .footcontacts {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  margin-bottom: 9px;
 }
+
 .link {
-  padding: 15px 0;
+  padding: 8px 0;
 }
 .link:hover,
 .link:focus {

@@ -28,32 +28,62 @@
 
 /* Main content */
 .main-headers {
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
 }
 .secondary-headers {
+  margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
+/* Наши преимущества */
+.display-none {
+  display: none;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.flex-list {
+  display: flex;
+}
+
+.flex-list > .flex-item:not(:last-child),
+.flex-list > .flex-img:not(:last-child),
+.flex-list > .names:not(:last-child) {
+  margin-right: 30px;
+}
+
+.flex-item {
+  width: 270px;
+}
 .advantages {
+  justify-content: space-between;
   font-size: 14px;
   line-height: 1.7;
   color: var(--secondary-text-color);
 }
+/* Наша команда */
 .names {
   line-height: 1.2;
 }
 .names h3 {
+  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
+  text-align: center;
 }
 .names p {
+  margin-top: 10px;
   font-size: 16px;
   color: var(--secondary-text-color);
+  text-align: center;
 }
 
 /* Стили страницы Портфолио */
