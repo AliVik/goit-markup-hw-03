@@ -22,12 +22,19 @@ ul {
   padding: 0;
 }
 .container {
-  width: 1200px;
+  width: 1230px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+}
+.display-none {
+  display: none;
+}
+
+.flex-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Шапка */
