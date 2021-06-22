@@ -22,7 +22,7 @@ ul {
   padding: 0;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -41,8 +41,8 @@ ul {
 
 .header-flex {
   display: flex;
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .nav-flex {
   display: flex;
@@ -96,6 +96,7 @@ ul {
   color: var(--secondary-text-color);
   text-decoration: none;
 }
+
 /* Подвал */
 .backlogo {
   color: var(--main-white-color);
