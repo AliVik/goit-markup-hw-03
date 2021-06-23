@@ -50,10 +50,10 @@
 .section:nth-child(2n + 4) {
   background-color: var(--buttons-color);
 }
-.flex-list > .flex-item:not(:last-child),
-.flex-list > .flex-img:not(:last-child),
-.flex-list > .names:not(:last-child) {
-  margin-right: 30px;
+.flex-list > .flex-item + .flex-item,
+.flex-list > .flex-img + .flex-img,
+.flex-list > .names + .names {
+  margin-left: 30px;
 }
 
 /* Наши преимущества */
@@ -81,7 +81,6 @@
   line-height: 1.2;
 }
 .names h3 {
-  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   text-align: center;
@@ -91,6 +90,10 @@
   font-size: 16px;
   color: var(--secondary-text-color);
   text-align: center;
+}
+.names-desc {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* Стили страницы Портфолио */

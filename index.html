@@ -13,7 +13,7 @@
 
 <body>
     <!-- Шапка -->
-        <header>
+        <header class="header-padd">
             <div class="header-flex container">
                 <nav class="navigation nav-flex">
                     <a href="./index.html" class="navigation-logo">
@@ -35,7 +35,9 @@
         <!-- Основной контент страницы Студия-->
         <main>
             <!-- Hero -->
-            <div class="delete-class">
+               
+         <!-- delete-class - временный клас для тёмного фона на герое и в подвале, потом удалю) -->
+            <div class="delete-class"> 
                 <section class="hero">
                     <h1 class="hero-name">Эффективные решения</br> для вашего бизнеса</h1>
                     <button type="button" class="main-button">Заказать услугу</button>
@@ -44,7 +46,7 @@
             <!-- Наши преимущества -->
             <section class="section">
                 <div class="container">
-                    <h2 class="main-headers display-none">Наши преимущества</h2>
+                    <h2 class="main-headers hidden">Наши преимущества</h2>
                     <ul class="flex-list">
                         <li class="list flex-item">
                             <h3 class="secondary-headers">Внимание к деталям</h3>
@@ -83,38 +85,47 @@
                     <ul class="flex-list">
                         <li class="names list">
                             <img src="./images/img.jpg" alt="дизайнер продукта" width="270" height="260" class="names-img"> 
-                            <h3>Игорь Демьяненко</h3>
-                            <p>Product designer</p>
+                            <div class="names-desc">
+                                <h3>Игорь Демьяненко</h3>
+                                <p>Product designer</p>
+                            </div>
                         </li>
                         <li class="names list">
                             <img src="./images/img3.jpg" alt="фронтенд разработчик" width="270" height="260" class="names-img">
-                            <h3>Ольга Репина</h3>
-                            <p>Frontend Developer</p>
+                            <div class="names-desc">
+                                <h3>Ольга Репина</h3>
+                                <p>Frontend Developer</p>
+                            </div>
                         </li>
                         <li class="names list">
                             <img src="./images/img1.jpg" alt="маркетолог" width="270" height="260" class="names-img">
-                            <h3>Николай Тарасов</h3>
-                            <p>Marketing</p>
+                            <div class="names-desc">
+                                <h3>Николай Тарасов</h3>
+                                <p>Marketing</p>
+                            </div>
                         </li>
                         <li class="names list">
                             <img src="./images/img2.jpg" alt="дизайнер интерфейса" width="270" height="260" class="names-img">
-                            <h3>Михаил Ермаков</h3>
-                            <p>UI Designer</p>
+                            <div class="names-desc">
+                                <h3>Михаил Ермаков</h3>
+                                <p>UI Designer</p>
+                            </div>
                         </li>
                     </ul>
                 </div>
             </section>
         </main>
         <!-- Подвал -->
-        <footer class="delete-class">
+        <!--  delete-class - временный клас для тёмного бэкграунда на герое и в подвале, потом удалю) -->
+        <footer class="delete-class foot-padd">
             <div class="container">
                 <a href="./index.html" class="navigation-logo link">
                     <p class="foot-logo"><span class="logo">Web</span><span class="backlogo">Studio</span></p>
                 </a>
                 <address class="footaddress">
-                    <a href="https://goo.gl/maps/UZM62VKS9garVXZ96" class="address link">г. Киев, пр-т Леси Украинки, 26</a>
-                    <p><a href="mailto:info@example.com" class="footcontacts link">info@example.com</a></p>
-                    <p><a href="tel:+380991111111" class="footcontacts link">+38 099 111 11 11</a></p>
+                    <a href="https://goo.gl/maps/UZM62VKS9garVXZ96" class="address">г. Киев, пр-т Леси Украинки, 26</a>
+                    <p><a href="mailto:info@example.com" class="footcontacts">info@example.com</a></p>
+                    <p><a href="tel:+380991111111" class="footcontacts">+38 099 111 11 11</a></p>
                 </address>
             </div>
         </footer>

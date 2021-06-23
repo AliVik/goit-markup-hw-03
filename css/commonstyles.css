@@ -16,6 +16,9 @@ body {
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 p,
 ul {
   margin: 0;
@@ -28,8 +31,10 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
 }
-.display-none {
-  display: none;
+.hidden {
+  visibility: hidden;
+  height: 0;
+  width: 0;
 }
 
 .flex-list {
@@ -39,10 +44,13 @@ ul {
 
 /* Шапка */
 
-.header-flex {
-  display: flex;
+.header-padd {
   padding-top: 24px;
   padding-bottom: 25px;
+}
+
+.header-flex {
+  display: flex;
 }
 .nav-flex {
   display: flex;
@@ -56,9 +64,9 @@ ul {
   margin-left: auto;
 }
 
-.nav-list .nav-item:not(:last-child),
-.auth-list .nav-item:not(:last-child) {
-  margin-right: 50px;
+.nav-list > .nav-item + .nav-item,
+.auth-list > .nav-item + .nav-item {
+  margin-left: 50px;
 }
 .navigation {
   font-weight: 500;
@@ -98,6 +106,10 @@ ul {
 }
 
 /* Подвал */
+.foot-padd {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
 .backlogo {
   color: var(--main-white-color);
 }
@@ -113,11 +125,13 @@ ul {
   font-style: normal;
 }
 .address {
+  display: block;
   color: var(--main-white-color);
   text-decoration: none;
   margin-bottom: 9px;
 }
 .footcontacts {
+  display: block;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   margin-bottom: 9px;
